@@ -1,27 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-    <link rel = "icon" href =
-"https://cdn-icons-png.flaticon.com/512/455/455691.png"
-        type = "image/x-icon">
-    <title>Flask URL shortener</title>
-</head>
-<body>
-<div style="border-radius: 10px; width: 320px; margin: 0 auto; background: #000; color: #fff;">
-    <h1 style="text-align: center; font-family: 'Roboto', sans-serif;">Flask URL shortener</h1>
-</div>
-<div style="width: 500px; margin: 0 auto; background: #000; color: #fff; height: 40px;">
-    <input id="inputlink" style="height: 34px; width: 440px;" type="text" name="link to short">
-    <button onclick="onshort()" id="short_button" style="height: 40px;">Short</button>
-</div>
-<div style="width: 210px; margin: 0 auto">coded by <a href="https://github.com/barabum0"><b>barabum</b></a>         <a href="https://github.com/barabum0/flask-url-shortener"><b>github repo</b></a></div>
-<script src="script.js">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+        </style>
+        <link rel = "icon" href = "https://cdn-icons-png.flaticon.com/512/455/455691.png" type = "image/x-icon">
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <script type="text/javascript" src="script.js"></script>
 
-</script>
-
-</body>
+        <title>Flask URL shortener</title>
+    </head>
+    <body>
+        <div class="center-screen">
+            <div class ="form">
+                <div style="margin: 0 auto; width: 100%;justify-content: center; display: flex;">
+                    <div class="logo">
+                        <h1 class="logo_text">Simple URL shortener</h1>
+                    </div>
+                </div>
+                <div style="  padding-bottom:10px; background:  #ff5136; margin-bottom: 10px">
+                    <div id="urlform">
+                        <input id="inputlink" type="text" name="link to short" placeholder="Enter link here">
+                        <button onclick='onshort()' id="short_button">✅</button>
+                    </div>
+                </div>
+            </div>
+            <div>
+                coded by <a href="https://github.com/barabum0">
+                <b>barabum</b></a>
+            </div>
+            <a href="https://github.com/barabum0/flask-url-shortener"><b>github repo</b></a>
+        </div>
+    </body>
 </html>

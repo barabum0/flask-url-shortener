@@ -31,6 +31,10 @@ def index():
 def scriptjs():
     return send_file("templates/script.js")
 
+@app.route('/styles.css')
+def stylescss():
+    return send_file("templates/styles.css")
+
 @app.route('/genlink')
 def genlink():
     check_unique = yamls.get("check_unique")
