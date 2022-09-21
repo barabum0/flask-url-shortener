@@ -3,10 +3,10 @@
 
 ## Showcase
 #### Main page
-![main page img](https://i.imgur.com/e9gfqKs.png)
+![main page img](https://i.imgur.com/j6eBtHn.png)
 
 #### Link does not exist page
-![link 404 img](https://i.imgur.com/n17oXW2.png)
+![link 404 img](https://i.imgur.com/k5qWp0x.png)
 
 ##### I don't very skilled in frontend, so commit if you can make better!
 
