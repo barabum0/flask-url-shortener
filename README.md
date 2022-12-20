@@ -14,6 +14,7 @@
 Run this commands one by one
 ```
 git clone https://github.com/barabum0/flask-url-shortener
+cd flask-url-shortener
 pip install -r requirements.txt
 ```
 And... It's done!
