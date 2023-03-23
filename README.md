@@ -8,7 +8,7 @@
 #### Link does not exist page
 ![link 404 img](https://i.imgur.com/k5qWp0x.png)
 
-##### I don't very skilled in frontend, so commit if you can make better!
+##### I don't very skilled in frontend, so feel free to do pull request!
 
 ## Setup:
 Run this commands one by one
